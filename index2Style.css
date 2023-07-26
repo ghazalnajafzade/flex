@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px auto;
+  border: 1px solid black;
+  width: 700px;
+  /* height:900px; */
+  background-color: #cdea8d;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  height: 120px;
+}
+
+.first .square {
+  background-color: #d9e8ff;
+  flex: 1 1;
+}
+.first .right {
+  display: flex;
+  flex: 1 1;
+}
+.first .left {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+}
+.first .rectangle {
+  flex: 1 1;
+
+  background-color: #ffe6cd;
+}
+
+.second .square {
+  background-color: #d9e8ff;
+  flex: 0 1 100px;
+}
+
+.second .right {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: end;
+}
+.second .left {
+  display: flex;
+  flex: 1 1;
+}
+.second .square {
+  background-color: #d9e8ff;
+  flex: 0 1 105px;
+}
+.second .rectangle {
+  flex: 1 1;
+
+  background-color: #ffe6cd;
+}
+.third,
+.second {
+  gap: 30px;
+}
+.third .rectangle {
+  flex: 1 1;
+
+  background-color: #ffe6cd;
+}
+
+.forth .square {
+  background-color: #d9e8ff;
+  flex: 0 1 105px;
+}
+.forth .right {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: end;
+}
+.forth .left {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: end;
+}
+.fifth .square {
+  background-color: #d9e8ff;
+  flex: 0 1 105px;
+}
+
+.fifth .right {
+  display: flex;
+  flex: 1 1;
+  justify-content: start;
+}
+
+.fifth .left {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: end;
+}
+.sixth .square {
+  background-color: #d9e8ff;
+  flex: 0 1 105px;
+}
+
+.sixth .left {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: end;
+}
+.sixth .right {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: center;
+}
+.seventh .square {
+  background-color: #d9e8ff;
+  flex: 0 1 105px;
+}
+.seventh .left {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: start;
+}
+.seventh .right {
+  display: flex;
+  flex: 1 1;
+  gap: 10px;
+  justify-content: end;
+}
+.seventh .rectangle {
+  flex: 1 1;
+
+  background-color: #ffe6cd;
+}
+
+.seventh .center {
+  display: flex;
+  flex: 2 1;
+  gap: 10px;
+  justify-content: center;
+}
